@@ -1,0 +1,54 @@
+
+body{
+	background-color: #765467;
+	padding: 10px;
+}
+main{
+	background-color: #224344;
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1{
+	width: 100%;
+	text-align: center;
+	color: #0776A0;
+}
+p{
+	text-align: center;
+}
+
+.photo{
+	width: 30%;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	background-color: #224344;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s;
+}
+.photo:hover{
+	transform: rotate(10deg) scale(0.7);
+}
+.photo1{
+	background-image: url(Images/im1.jpg);
+}
+.photo2{
+	background-image: url(Images/im2.jpg);
+}
+.photo3{
+	background-image: url(Images/im3.jpg);
+}
+.photo4{
+	background-image: url(Images/im4.jpg);
+}
+.photo5{
+	background-image: url(Images/im5.jpg);
+}
+.photo6{
+	background-image: url(Images/im6.jpg);
+}
